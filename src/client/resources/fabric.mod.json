@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shopterminal",
+  "version": "1.0.0",
+  "name": "Shop Terminal Addon",
+  "description": "Adds a placeable Shop Terminal block that opens the /shop menu.",
+  "authors": ["Marian & ChatGPT"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.shopterminal.ShopTerminalAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": "1.21.8"
+  }
+}
